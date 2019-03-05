@@ -1,0 +1,24 @@
+
+
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+        Tipo Dato
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+      <ion-item>
+        <ion-label position="floating">Ingrese un dato</ion-label>
+        <ion-input type="" placeholder="dato" [(ngModel)]="dato" name="dato"></ion-input>
+  </ion-item> 
+  
+  <ion-button expand="full" (click)="calculateTwo(dato)">Calcular</ion-button>
+  
+</ion-content>
+
+
